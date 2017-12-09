@@ -1,0 +1,39 @@
+/* CSS Document */
+#addnewelement{
+	
+	color:#80ab2a;
+	padding:5px;
+	width:97%;
+	min-height:20px;
+	line-height:3em;
+	margin-bottom:20px;
+	/*box-shadow:0px 0px 15px #cccccc;
+	-webkit-box-shadow:0px 0px 15px #cccccc;
+	-moz-box-shadow:0px 0px 15px #cccccc;*/	
+	border-radius:6px;
+}
+#editexam{
+	border-radius:6px;
+	border:2px solid #cccc99;	
+	padding: 10px;
+	background: #F6F6ED;
+}
+#edit_modal{
+	border: 2px solid #CC6600;
+}
+.edit_title{
+	background:rgba(204,204,143,0.6);
+}
+table{
+	margin:0 auto;
+	margin-top:10px;
+	width:100%;
+	font:Helvetica;
+	font-size:14px;
+}
+table th{
+	font:Helvetica;
+	line-height:3em;
+	font-size:14px;
+}
+/*---------------------------CLASSES---------------------------------*/

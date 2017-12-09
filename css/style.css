@@ -1,0 +1,232 @@
+/* CSS Document */
+	
+body{
+	margin:0;
+	padding:0;
+	font:Helvetica;
+	background: #F6F6ED;
+}
+
+#main_container{
+	margin:0 auto;
+	padding:2px;
+	min-height:600px;
+	/*border:1px solid #f30;*/
+	width:80%;
+}
+#banner{
+	margin:0 auto;
+	padding:2px;
+	width:99%;
+	height:160px;
+	border-radius:10px;
+	background:rgba(204,204,143,0.6);
+	border:3px solid #cccc99;
+	margin:20px 0 5px 0px;
+
+}
+#headerimg{
+	top:20px;
+	left:20px;
+	position:relative;
+}
+#h2title{
+	left:140px;
+	position:relative;
+	top:-55px;
+	font-family:'Helvetica';
+	color:#80ab2a;
+	}
+#container{
+	margin:0 auto;
+	padding:2px;
+	width:99%;
+	min-height:400px;
+	border-radius:10px;
+	background:rgba(204,204,143,0.2);
+	border:3px solid #cccc99;
+	margin:20px 0 5px 0px;
+}
+#divLeft{
+	width:71%;
+	min-height:400px;
+	/*border:solid #cccc99 thin;*/
+	float:left;
+	padding:4px;
+}
+#menuDiv{
+	margin:0 auto;
+	/*padding:2px;*/
+	width:100%;
+	height:50px;
+	background:rgba(204,204,143,0.2);
+	border:3px solid #cccc99;
+	margin:5px 0 5px 0px;
+	vertical-align:central;
+	border-top-left-radius:6px;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-right-radius:6px;
+	-webkit-border-top-right-radius::6px;
+	-moz-border-radius-topright:6px;
+}
+#menuDiv ul{
+	list-style:none;
+	margin:0 auto;
+	/*border:solid 1px;*/
+	vertical-align:central;
+	font-size:16px;
+	font-weight:bolder;
+	width:100%;
+}
+#menuDiv ul li{
+	float:left;
+	text-align:center;
+	line-height:2em;
+	width:24%;
+	margin-top:10px;
+}
+#menuDiv ul  li a{
+	display: block;
+	text-decoration:none;
+	/*float:left;*/
+	color:#80ab2a;
+	line-height:2em;	
+}
+#menuDiv a:hover{
+	background:rgba(153,204,51,1);
+	color:#FFFFFF;
+	display: block;
+}
+.menu_active{
+	background:rgba(153,204,51,1);
+	color:#FFFFFF;
+	display: block;
+
+}
+
+#dynamicCont{
+	margin:0 auto;
+	padding:4px;
+	width:99%;
+	min-height:350px;	
+	background:rgba(204,204,143,0);
+	border:3px solid #cccc99;
+	margin:5px 0 5px 0px;
+	
+	border-bottom-left-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+}
+
+
+/*-----------------------------------------------div right-----------------------------------------*/
+#divRight{
+	width:26%;
+	min-height:410px;
+	height:auto;
+	border-left:solid #cccc99 thin;
+	border-bottom:solid #cccc99 thin;
+	float:right;
+	padding:4px 10px;
+	margin:5px 0 0 0;
+}
+
+#sidemenuHolder .nav-header{
+	color:#80ab2a;
+	font-size:15px;
+	line-height:2em;
+	background:rgba(204,204,143,0.2);
+	border:solid #cccc99 thin;	
+	border-top-left-radius:6px;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-right-radius:6px;
+	-webkit-border-top-right-radius::6px;
+	-moz-border-radius-topright:6px;
+}
+#sidemenuHolder li{
+	font-size:14px;
+	padding:5px;
+}
+#action_header{
+	
+	background:rgba(204,204,143,0.2);
+	margin:0 auto;
+	padding:10px 10px;
+	width:97%;
+	min-height:20px;
+	line-height:3em;
+	margin-top:10px;
+	margin-bottom:20px;
+	box-shadow:0px 0px 15px #999999;
+	-webkit-box-shadow:0px 0px 15px #999999;
+	-moz-box-shadow:0px 0px 15px #999999;	
+	border-radius:6px;
+}
+#footer{
+	margin:0 auto;
+	/*padding:2px;*/
+	min-height:70px;	
+	background:rgba(204,204,143,0.1);
+	/*border:1px solid #cccc99;*/
+}
+#pageNavPosition{
+	margin:0 auto;	
+}
+/*----------------classes---------------------*/	
+.clearBoth{
+	clear:both;
+}
+.thin-right-border{
+	border-right:solid #97C03D thin;
+	
+}
+.labelstyle{
+	font:Helvetica;
+	font-size:16px;
+	font-weight:700;	
+	color:#80ab2a;
+	
+}
+.boxshadow{
+	box-shadow:0px 0px 15px #999999;
+	-webkit-box-shadow:0px 0px 15px #999999;
+	-moz-box-shadow:0px 0px 15px #999999;	
+	border-radius:6px;
+}
+.displaytable{
+	background:rgba(204,204,143,0.2);
+}
+.pg-normal {
+	color: black;
+	font-weight: normal;
+	text-decoration: none;   
+	cursor: pointer;  
+}
+.pg-selected {
+	color: black;
+	font-weight: bold;       
+	text-decoration: underline;
+	cursor: pointer;
+}
+.tdfont{
+	font-weight:300;
+}
+.table_padding_top{
+	padding-top:20px;
+}
+.table_padding_bottom{
+	padding-bottom:20px;
+}
+.noticehover:hover{
+	color:#97C03D;
+
+}
+.mousetopointer{	
+	cursor:pointer;
+}

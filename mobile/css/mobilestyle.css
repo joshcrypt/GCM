@@ -1,0 +1,74 @@
+/* CSS Document */
+body [data-role="page"]{
+	background:#acddee;
+}
+table{
+	margin:0 auto;
+	margin-top:10px;
+	width:100%;
+	font:Helvetica;
+	font-size:14px;
+	background:#e1b4f8;
+}
+table th{
+	font:Helvetica;
+	line-height:3em;
+	font-size:14px;
+	color:#97C03D;
+}
+li{
+	list-style:none;
+}
+.ui-mobile [data-role="page"] {
+    border: 3px solid #000000 !important;
+	border-radius:6px;
+    height: 100% !important;
+}
+#viewheader{
+	background:#A764C9;
+	color:#000;
+	padding:5px 0 0 0;
+	font:Helvetica;
+	min-height:25px;
+	text-align:center;
+}
+#admin,#religious,#enter,#lostnfound,#events,#others{
+	margin:0 auto;
+	width:98%;
+}
+/*------------------------------------------classes-------------------------------*/
+.displaytable{
+	color:#97C03D;
+}
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 18px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table th {
+  font-weight: bold;
+}
+.table {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.table-bordered {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapsed;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+

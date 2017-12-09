@@ -1,0 +1,108 @@
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	background: #F6F6ED;
+}
+#content{
+	margin:0 auto;
+	margin-top:15%;
+	width:40%;
+	height:auto;
+	bbackground:rgba(204,204,143,0.6);
+	box-shadow:0px 0px 20px #333333;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+
+}
+#h2title{
+	left:140px;
+	position:relative;
+	top:-55px;
+	font-family:'Helvetica';
+	color:#97C03D;
+}
+#banner{
+	margin:0 auto;
+	padding:2px;
+	width:99%;
+	height:120px;
+	border-radius:10px;
+	background:rgba(204,204,143,0.6);
+	border:2px solid #cccc99;
+	margin:20px 0 5px 0px;
+
+}
+#headerimg{
+	top:20px;
+	left:40px;
+	position:relative;
+}
+#imgheader{
+	padding:4px;
+}
+#imgheader img{
+	float:left;
+}
+#imgheader label{
+	float:right;
+	margin:50px 20px;
+	font:Helvetica;
+	color:#97C03D;
+	
+}
+#loginformDiv{
+	margin:0 auto;
+}
+#loginformDiv table{
+	margin:0 auto;
+	width:70%;
+}
+#addnewelement{
+	margin:0 auto;
+	padding:5px;
+	width:70%;
+	min-height:20px;
+	line-height:3em;
+	margin-bottom:20px;
+	/*box-shadow:0px 0px 15px #cccccc;
+	-webkit-box-shadow:0px 0px 15px #cccccc;
+	-moz-box-shadow:0px 0px 15px #cccccc;*/	
+	border-radius:6px;
+}
+table{
+	margin:0 auto;
+	margin-top:10px;
+	width:100%;
+	font:Helvetica;
+	font-size:14px;
+	font-weight:bolder;
+}
+.labelstyle{
+	font:Helvetica;
+	font-size:16px;
+	font-weight:bold;
+	color:#97C03D;
+}
+.labelstyle{
+	font:Helvetica;
+	font-size:16px;
+	font-weight:normal;	
+	color:#97C03D;
+	
+}
+.boxshadow{
+	box-shadow:0px 0px 15px #cccccc;
+	-webkit-box-shadow:0px 0px 15px #cccccc;
+	-moz-box-shadow:0px 0px 15px #cccccc;	
+	border-radius:6px;
+}
+.displaytable{
+	color:#97C03D;
+}
+.clearBoth{
+	
+	clear:both;
+}
