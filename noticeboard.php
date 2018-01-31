@@ -52,7 +52,7 @@
             <div id="menuDiv" class="boxshadow">
                 <ul>
                     <li class="thin-right-border"><a  href="home.php">HOME</a></li>
-                    <li class="thin-right-border"><a href="timetable.php "id="classtt" class="mousetopointer">TIMETABL</a></li>
+                    <li class="thin-right-border"><a href="timetable.php "id="classtt" class="mousetopointer">TIMETABLE</a></li>
                     <li class="thin-right-border"><a href="noticeboard.php">NOTICEBOARD</a></li>
                     <li><a href="sendmessages.php">GCM SERVICES</a></li> 
         			
